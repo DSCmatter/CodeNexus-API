@@ -7,7 +7,7 @@ Welcome to the CodeNexus API documentation. This API allows you to retrieve tech
 ![Test Image 1](./Tests/test1.png)
 ![Test Image 2](./Tests/test2.png)
 
-### Source: [Here](https://rapidapi.com/vasantmogia05/api/codenexus)
+### To use this API visit: [Here](https://rapidapi.com/vasantmogia05/api/codenexus)
 
 #### Base URL
 
