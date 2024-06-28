@@ -75,4 +75,4 @@ curl -X GET "https://your-api-base-url/news/techcrunch"
 
 - Ensure to replace `https://your-api-base-url` with the actual base URL provided to you for accessing the API.
 - Always check the specific documentation or support provided by the API.
-
+- Documentation provided by [the-SINFUL](https://github.com/the-SINFUL)
