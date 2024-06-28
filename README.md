@@ -2,6 +2,11 @@
 
 Welcome to the CodeNexus API documentation. This API allows you to retrieve tech news from various sources around the world using simple GET commands.
 
+### Tests 
+
+![Test Image 1](./tests/test1.png)
+![Test Image 2](./tests/test2.png)
+
 ### Source: [Here](https://rapidapi.com/vasantmogia05/api/codenexus)
 
 #### Base URL
