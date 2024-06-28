@@ -4,8 +4,8 @@ Welcome to the CodeNexus API documentation. This API allows you to retrieve tech
 
 ### Tests 
 
-![Test Image 1](./tests/test1.png)
-![Test Image 2](./tests/test2.png)
+![Test Image 1](./Tests/test1.png)
+![Test Image 2](./Tests/test2.png)
 
 ### Source: [Here](https://rapidapi.com/vasantmogia05/api/codenexus)
 
