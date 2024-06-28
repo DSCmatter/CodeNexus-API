@@ -74,6 +74,5 @@ curl -X GET "https://your-api-base-url/news/techcrunch"
 #### Notes
 
 - Ensure to replace `https://your-api-base-url` with the actual base URL provided to you for accessing the API.
-- Always check the specific documentation or support provided by the API provider for any updates, changes, or additional features.
+- Always check the specific documentation or support provided by the API.
 
-This concludes the documentation for the Tech News API. If you have any questions or require further assistance, please contact our support team or refer to our API documentation portal.
