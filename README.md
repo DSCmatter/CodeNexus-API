@@ -5,7 +5,7 @@ CodeNexus is your gateway to a comprehensive array of tech news and information.
 ```
 https://your-api-base-url
 ```
-Endpoints-
+## Endpoints-
 1.Retrieve All Tech News: GET /news
 Description: This endpoint retrieves all types of tech news from every available source worldwide.
 
