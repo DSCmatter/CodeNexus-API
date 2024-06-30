@@ -59,7 +59,7 @@ info.forEach(info => {
 });
 
 app.get('/', (req, res) => {
-    res.json('Welcome to hell')
+    res.json('Welcome to CodeNexus, your personal gateway to comprehensive array of tech news and information.')
 });
 
 
