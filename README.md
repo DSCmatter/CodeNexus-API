@@ -22,7 +22,11 @@ https://your-api-base-url
 - CNBC
 - TechCrunch
 - Guardian
-- Ycombinator 
+- Ycombinator
+
+### Usage: 
+
+Since this API is deployed on a serverless platform and on rapidapi, it is recommended for all users to check rapidapi website of this api look for code snippets for node.js. 
 
 #### Endpoints
 
