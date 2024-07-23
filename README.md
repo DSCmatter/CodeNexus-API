@@ -26,7 +26,8 @@ https://your-api-base-url
 
 ### Usage: 
 
-Since this API is deployed on a serverless platform and on rapidapi, it is recommended for all users to check rapidapi website of this api look for code snippets for node.js. 
+- Since this API is deployed on a serverless platform and RapidAPI, it is recommended that all users check the RapidAPI website for this API to find Node.js code snippets. 
+- This API cannot handle a high load as it is running on a free server, so it is mainly intended for personal projects and not for any other uses.
 
 #### Endpoints
 
