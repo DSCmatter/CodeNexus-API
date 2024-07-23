@@ -17,6 +17,13 @@ The base URL for accessing the CodeNexus API is:
 https://your-api-base-url
 ```
 
+### Supported sources right now: 
+
+- CNBC
+- TechCrunch
+- Guardian
+- Ycombinator 
+
 #### Endpoints
 
 1. **Retrieve All Tech News**
