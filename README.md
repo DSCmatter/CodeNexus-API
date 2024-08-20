@@ -8,6 +8,7 @@ Welcome to the CodeNexus API documentation. This API allows you to retrieve tech
 ![Test Image 2](./Tests/test2.png)
 
 ### To use this API visit: [Here](https://rapidapi.com/vasantmogia05/api/codenexus)
+### Direct site: [Here](https://technews.koyeb.app/news)
 
 #### Base URL
 
@@ -43,14 +44,14 @@ https://your-api-base-url
 
    Example:
    ```
-   GET https://your-api-base-url/news
+   GET https://technews.koyeb.app/news
    ```
 
 2. **Retrieve Tech News from a Specific Source**
 
    Endpoint:
    ```
-   GET /news/{source}
+   GET https://technews.koyeb.app/news/{source}
    ```
 
    Description:
@@ -58,7 +59,7 @@ https://your-api-base-url
 
    Example:
    ```
-   GET https://your-api-base-url/news/techcrunch
+   GET https://technews.koyeb.app/news/techcrunch
    ```
 
 #### Response Format
@@ -77,14 +78,14 @@ The API may impose rate limits to ensure fair usage and maintain performance. Pl
 
 ```bash
 # Retrieve all tech news
-curl -X GET "https://your-api-base-url/news"
+curl -X GET "https://technews.koyeb.app/news"
 
 # Retrieve tech news from TechCrunch
-curl -X GET "https://your-api-base-url/news/techcrunch"
+curl -X GET "https://technews.koyeb.app/news/yc"
 ```
 
 #### Notes
 
-- Ensure to replace `https://your-api-base-url` with the actual base URL provided to you for accessing the API.
+- Ensure to replace `https://technews.koyeb.app/news` with the actual base URL provided to you for accessing the API.
 - Always check the specific documentation or support provided by the API.
 - Documentation provided by [the-SINFUL](https://github.com/the-SINFUL)
