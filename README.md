@@ -1,4 +1,7 @@
-### CodeNexus API Documentation
+### CodeNexus API 
+
+[!IMPORTANT]  
+> This API is intended solely for educational purposes and is not suitable for use in any production environments. Since it is running on a free serverless platform, it may experience high latency and is not designed for high-performance needs.
 
 Welcome to the CodeNexus API documentation. This API allows you to retrieve tech news from various sources around the world using simple GET commands.
 
