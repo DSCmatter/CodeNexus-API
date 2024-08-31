@@ -18,7 +18,7 @@ Welcome to the CodeNexus API documentation. This API allows you to retrieve tech
 The base URL for accessing the CodeNexus API is:
 
 ```
-https://your-api-base-url
+https://technews.koyeb.app/news
 ```
 
 ### Supported sources right now: 
