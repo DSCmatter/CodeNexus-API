@@ -91,4 +91,4 @@ curl -X GET "https://technews.koyeb.app/news/yc"
 
 - Ensure to replace `https://technews.koyeb.app/news` with the actual base URL provided to you for accessing the API.
 - Always check the specific documentation or support provided by the API.
-- Documentation provided by [the-SINFUL](https://github.com/the-SINFUL)
+- Documentation provided by [the-SINFUL](https://github.com/the-SINFUL) as of July 2024
