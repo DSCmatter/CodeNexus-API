@@ -11,23 +11,23 @@ const info = [
     {
         name: 'techcrunch',
         address: 'https://techcrunch.com/',
+        prefix: null
     },
-
     { 
         name: 'cnbc',
         address: 'https://www.cnbc.com/technology/',
+        prefix: null
     },
-
     {
         name: 'yc',
-        address: 'https://news.ycombinator.com/'
+        address: 'https://news.ycombinator.com/',
+        prefix: null
     },
-
     {
         name: 'theguardian',
-        address: 'https://www.theguardian.com/uk/technology'
+        address: 'https://www.theguardian.com/uk/technology',
+        prefix: 'https://www.theguardian.com/uk'
     }
-
 ]
 
 const articles = []
@@ -41,14 +41,19 @@ info.forEach(info => {
 
             $('a:contains("")', html).each(function () {
                 const title = $(this).text().trim();
-                const url = $(this).attr('href');
+                var url = $(this).attr('href');
+
+                if (info.prefix)
+                {
+                    url = info.prefix + url
+                }
 
                 // Filter titles with (nums) or more words
                 if (title.split(/\s+/).length >= 4) {
                     articles.push({
-                        title,
-                        url,
-                        source: info.name
+                        "title": title,
+                        "url": url,
+                        "source": info.name
                     });
                 }
             });
@@ -70,11 +75,9 @@ app.get('/news', (req, res) => {
 app.get('/news/:infoId', async (req, res) => {
 
     const infoId = req.params.infoId
+    const selectedInfo = info.filter(infos => infos.name == infoId)[0]
 
-    const infoAddress = info.filter(infos => infos.name == infoId)[0].address
-    const infoName = info.filter(infos => infos.name == infoId)[0].name
-
-    axios.get(infoAddress)
+    axios.get(selectedInfo.address)
     .then(response => {
 
         const html = response.data;
@@ -86,13 +89,18 @@ app.get('/news/:infoId', async (req, res) => {
         $('a:contains("")', html).each(function () {
 
             const title = $(this).text().trim()
-            const url = $(this).attr('href')
+            var url = $(this).attr('href')
+
+            if (selectedInfo.prefix)
+            {
+                url = selectedInfo.prefix + url
+            }
             
             if (title.split(/\s+/).length >= 4){
                 specificArticles.push({
-                    title,
-                    url: infoName + url,
-                    source: infoId
+                    "title": title,
+                    "url": url,
+                    "source": infoId
                 })
             }
         })
